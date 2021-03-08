@@ -1,6 +1,13 @@
 # ListFilter
 
-**TODO: Add description**
+Dada uma lista, contendo caracteres, a função **ListFilter.filtered_list/1** remove aqueles cujos valores não podem ser vertidos em números inteiros, verte os valores da lista resultante em números inteiros, filtra os ímpares e retorna a contagem.
+
+# Exemplo
+```elixir
+list = ["1", "2", "5", "6", "7", "elixir", "6", "erl"]
+ListFilter.filtered_list(list)
+3
+```
 
 ## Installation
 
